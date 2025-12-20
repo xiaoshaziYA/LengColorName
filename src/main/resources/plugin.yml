@@ -1,0 +1,13 @@
+name: LengColorName
+version: 1.0.0
+main: shaziawa.LengColorName.LengColorName
+api-version: 1.21
+depend: [PlaceholderAPI]
+commands:
+  lcn:
+    usage: /lcn open
+    description: 打开颜色选择器
+permissions:
+  lengcolorname.use:
+    description: 允许使用颜色选择器
+    default: op
